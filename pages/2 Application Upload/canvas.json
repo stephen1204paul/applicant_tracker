@@ -1,0 +1,693 @@
+{
+  "unpublishedPage": {
+    "name": "2 Application Upload",
+    "slug": "2-application-upload",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1160,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 840,
+          "containerStyle": "none",
+          "snapRows": 104,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 54,
+          "minHeight": 850,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
+          "dynamicBindingPathList": [],
+          "children": [
+            {
+              "boxShadow": "NONE",
+              "widgetName": "Container7",
+              "borderColor": "transparent",
+              "isCanvas": true,
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 0,
+              "bottomRow": 7,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 12,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "widgetName": "Canvas12",
+                  "rightColumn": 430.5,
+                  "detachFromLayout": true,
+                  "displayName": "Canvas",
+                  "widgetId": "b641w7e1v7",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 390,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "version": 1,
+                  "hideCard": true,
+                  "parentId": "8xidxyww20",
+                  "minHeight": 400,
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "widgetName": "Text38",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 0,
+                      "bottomRow": 5,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 3.05078125,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "YourCompany Upload Job Application\n",
+                      "key": "gbfdctoduz",
+                      "rightColumn": 29,
+                      "textAlign": "LEFT",
+                      "widgetId": "6karkybow6",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "b641w7e1v7",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "fontSize": "HEADING2"
+                    },
+                    {
+                      "widgetName": "Button5",
+                      "onClick": "{{navigateTo('1 Track Applications', {})}}",
+                      "buttonColor": "#2E3D49",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca02633.svg",
+                      "topRow": 0,
+                      "bottomRow": 5,
+                      "parentRowSpace": 10,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 11.93359375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 50,
+                      "dynamicBindingPathList": [],
+                      "text": "Track Applications",
+                      "isDisabled": false,
+                      "key": "c3vy6jijoj",
+                      "rightColumn": 63,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "ihu2rz7ha6",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "b641w7e1v7",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "ROUNDED",
+                      "buttonVariant": "SECONDARY",
+                      "placement": "CENTER"
+                    }
+                  ],
+                  "key": "zogzl76zd8"
+                }
+              ],
+              "borderWidth": "0",
+              "key": "zhft13af0w",
+              "backgroundColor": "#FFC727",
+              "rightColumn": 56,
+              "widgetId": "8xidxyww20",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "15"
+            },
+            {
+              "widgetName": "application_form",
+              "backgroundColor": "white",
+              "rightColumn": 56,
+              "widgetId": "jl8q4pz21u",
+              "topRow": 7,
+              "bottomRow": 49,
+              "parentRowSpace": 40,
+              "isVisible": true,
+              "type": "FORM_WIDGET",
+              "version": 1,
+              "parentId": "0",
+              "blueprint": {
+                "view": [
+                  {
+                    "position": {
+                      "top": 0,
+                      "left": 0
+                    },
+                    "type": "CANVAS_WIDGET",
+                    "props": {
+                      "blueprint": {
+                        "view": [
+                          {
+                            "size": {
+                              "rows": 1,
+                              "cols": 12
+                            },
+                            "position": {
+                              "top": 0,
+                              "left": 0
+                            },
+                            "type": "TEXT_WIDGET",
+                            "props": {
+                              "text": "Form",
+                              "textStyle": "HEADING"
+                            }
+                          },
+                          {
+                            "size": {
+                              "rows": 1,
+                              "cols": 4
+                            },
+                            "position": {
+                              "top": 11,
+                              "left": 12
+                            },
+                            "type": "FORM_BUTTON_WIDGET",
+                            "props": {
+                              "resetFormOnClick": true,
+                              "disabledWhenInvalid": true,
+                              "buttonStyle": "PRIMARY_BUTTON",
+                              "text": "Submit"
+                            }
+                          },
+                          {
+                            "size": {
+                              "rows": 1,
+                              "cols": 4
+                            },
+                            "position": {
+                              "top": 11,
+                              "left": 8
+                            },
+                            "type": "FORM_BUTTON_WIDGET",
+                            "props": {
+                              "resetFormOnClick": true,
+                              "disabledWhenInvalid": false,
+                              "buttonStyle": "SECONDARY_BUTTON",
+                              "text": "Reset"
+                            }
+                          }
+                        ]
+                      },
+                      "detachFromLayout": true,
+                      "children": [],
+                      "containerStyle": "none",
+                      "canExtend": false
+                    }
+                  }
+                ]
+              },
+              "isLoading": false,
+              "parentColumnSpace": 74,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 12,
+              "dynamicBindingPathList": [],
+              "borderRadius": "15\n",
+              "children": [
+                {
+                  "widgetName": "Canvas1",
+                  "rightColumn": 2072,
+                  "detachFromLayout": true,
+                  "widgetId": "hnice2rhm7",
+                  "containerStyle": "none",
+                  "topRow": 0,
+                  "bottomRow": 400,
+                  "parentRowSpace": 1,
+                  "isVisible": true,
+                  "canExtend": false,
+                  "type": "CANVAS_WIDGET",
+                  "version": 1,
+                  "parentId": "jl8q4pz21u",
+                  "blueprint": {
+                    "view": [
+                      {
+                        "size": {
+                          "rows": 1,
+                          "cols": 12
+                        },
+                        "position": {
+                          "top": 0,
+                          "left": 0
+                        },
+                        "type": "TEXT_WIDGET",
+                        "props": {
+                          "text": "Form",
+                          "textStyle": "HEADING"
+                        }
+                      },
+                      {
+                        "size": {
+                          "rows": 1,
+                          "cols": 4
+                        },
+                        "position": {
+                          "top": 11,
+                          "left": 12
+                        },
+                        "type": "FORM_BUTTON_WIDGET",
+                        "props": {
+                          "resetFormOnClick": true,
+                          "disabledWhenInvalid": true,
+                          "buttonStyle": "PRIMARY_BUTTON",
+                          "text": "Submit"
+                        }
+                      },
+                      {
+                        "size": {
+                          "rows": 1,
+                          "cols": 4
+                        },
+                        "position": {
+                          "top": 11,
+                          "left": 8
+                        },
+                        "type": "FORM_BUTTON_WIDGET",
+                        "props": {
+                          "resetFormOnClick": true,
+                          "disabledWhenInvalid": false,
+                          "buttonStyle": "SECONDARY_BUTTON",
+                          "text": "Reset"
+                        }
+                      }
+                    ]
+                  },
+                  "minHeight": 400,
+                  "isLoading": false,
+                  "parentColumnSpace": 1,
+                  "dynamicTriggerPathList": [],
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "isRequired": true,
+                      "widgetName": "Resume_URL",
+                      "rightColumn": 62,
+                      "widgetId": "rzzcenf2ek",
+                      "topRow": 26,
+                      "bottomRow": 30,
+                      "parentRowSpace": 40,
+                      "isVisible": true,
+                      "label": "",
+                      "type": "INPUT_WIDGET",
+                      "version": 1,
+                      "parentId": "hnice2rhm7",
+                      "isLoading": false,
+                      "parentColumnSpace": 62.25,
+                      "dynamicTriggerPathList": [],
+                      "resetOnSubmit": false,
+                      "leftColumn": 22,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "defaultText"
+                        }
+                      ],
+                      "inputType": "TEXT",
+                      "defaultText": "{{CreateFile.data.signedUrl}}",
+                      "placeholderText": "Enter Resume URL",
+                      "isDisabled": false,
+                      "validation": "true"
+                    },
+                    {
+                      "isRequired": true,
+                      "widgetName": "name",
+                      "rightColumn": 32,
+                      "widgetId": "5akhn9nnj2",
+                      "topRow": 7,
+                      "bottomRow": 11,
+                      "parentRowSpace": 40,
+                      "isVisible": true,
+                      "label": "",
+                      "type": "INPUT_WIDGET",
+                      "version": 1,
+                      "parentId": "hnice2rhm7",
+                      "isLoading": false,
+                      "parentColumnSpace": 62.25,
+                      "dynamicTriggerPathList": [],
+                      "resetOnSubmit": false,
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [],
+                      "inputType": "TEXT",
+                      "placeholderText": "Enter your name",
+                      "defaultText": "",
+                      "isDisabled": false,
+                      "validation": "true"
+                    },
+                    {
+                      "widgetName": "Text2",
+                      "rightColumn": 14,
+                      "textAlign": "LEFT",
+                      "widgetId": "n5ixmvew9p",
+                      "topRow": 2,
+                      "bottomRow": 6,
+                      "parentRowSpace": 40,
+                      "isVisible": true,
+                      "type": "TEXT_WIDGET",
+                      "fontStyle": "BOLD",
+                      "version": 1,
+                      "textColor": "#231F20",
+                      "parentId": "hnice2rhm7",
+                      "isLoading": false,
+                      "parentColumnSpace": 62.25,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [],
+                      "fontSize": "HEADING3",
+                      "text": "Name"
+                    },
+                    {
+                      "widgetName": "Text3",
+                      "rightColumn": 14,
+                      "textAlign": "LEFT",
+                      "widgetId": "bfokw4hlc9",
+                      "topRow": 13,
+                      "bottomRow": 17,
+                      "parentRowSpace": 40,
+                      "isVisible": true,
+                      "type": "TEXT_WIDGET",
+                      "fontStyle": "BOLD",
+                      "version": 1,
+                      "textColor": "#231F20",
+                      "parentId": "hnice2rhm7",
+                      "isLoading": false,
+                      "parentColumnSpace": 62.25,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [],
+                      "fontSize": "HEADING3",
+                      "text": "Email"
+                    },
+                    {
+                      "isRequired": true,
+                      "widgetName": "email",
+                      "rightColumn": 32,
+                      "widgetId": "gpebs1y175",
+                      "topRow": 17,
+                      "bottomRow": 21,
+                      "parentRowSpace": 40,
+                      "isVisible": true,
+                      "label": "",
+                      "type": "INPUT_WIDGET",
+                      "version": 1,
+                      "parentId": "hnice2rhm7",
+                      "isLoading": false,
+                      "parentColumnSpace": 62.25,
+                      "dynamicTriggerPathList": [],
+                      "resetOnSubmit": false,
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [],
+                      "inputType": "EMAIL",
+                      "defaultText": "",
+                      "placeholderText": "Enter your email",
+                      "isDisabled": false,
+                      "validation": "true"
+                    },
+                    {
+                      "isRequired": true,
+                      "widgetName": "role",
+                      "rightColumn": 62,
+                      "isFilterable": true,
+                      "widgetId": "ujb32vgllq",
+                      "topRow": 17,
+                      "bottomRow": 21,
+                      "parentRowSpace": 40,
+                      "isVisible": true,
+                      "label": "",
+                      "type": "DROP_DOWN_WIDGET",
+                      "version": 1,
+                      "parentId": "hnice2rhm7",
+                      "isLoading": false,
+                      "defaultOptionValue": "dev",
+                      "parentColumnSpace": 62.25,
+                      "leftColumn": 33,
+                      "dynamicBindingPathList": [],
+                      "options": "[\n  {\n    \"label\": \"Software Engineer\",\n    \"value\": \"Software Engineer\"\n  },\n  {\n    \"label\": \"Product Designer\",\n    \"value\": \"Product Designer\"\n  },\n  {\n    \"label\": \"Marketing Lead\",\n    \"value\": \"Marketing Lead\"\n  }\n]",
+                      "isDisabled": false
+                    },
+                    {
+                      "widgetName": "Text4",
+                      "rightColumn": 45,
+                      "textAlign": "LEFT",
+                      "widgetId": "g5md275w64",
+                      "topRow": 13,
+                      "bottomRow": 17,
+                      "parentRowSpace": 40,
+                      "isVisible": true,
+                      "type": "TEXT_WIDGET",
+                      "fontStyle": "BOLD",
+                      "version": 1,
+                      "textColor": "#231F20",
+                      "parentId": "hnice2rhm7",
+                      "isLoading": false,
+                      "parentColumnSpace": 62.25,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "leftColumn": 33,
+                      "dynamicBindingPathList": [],
+                      "fontSize": "HEADING3",
+                      "text": "Role"
+                    },
+                    {
+                      "isRequired": true,
+                      "widgetName": "phoneNo",
+                      "rightColumn": 62,
+                      "widgetId": "j7knd8h8u1",
+                      "topRow": 7,
+                      "bottomRow": 11,
+                      "parentRowSpace": 40,
+                      "isVisible": true,
+                      "label": "",
+                      "type": "INPUT_WIDGET",
+                      "version": 1,
+                      "parentId": "hnice2rhm7",
+                      "isLoading": false,
+                      "parentColumnSpace": 62.25,
+                      "dynamicTriggerPathList": [],
+                      "resetOnSubmit": false,
+                      "leftColumn": 33,
+                      "dynamicBindingPathList": [],
+                      "inputType": "NUMBER",
+                      "placeholderText": "Enter your phone number",
+                      "isDisabled": false,
+                      "validation": "true"
+                    },
+                    {
+                      "widgetName": "Text5",
+                      "rightColumn": 45,
+                      "textAlign": "LEFT",
+                      "widgetId": "2tt5foywrm",
+                      "topRow": 2,
+                      "bottomRow": 6,
+                      "parentRowSpace": 40,
+                      "isVisible": true,
+                      "type": "TEXT_WIDGET",
+                      "fontStyle": "BOLD",
+                      "version": 1,
+                      "textColor": "#231F20",
+                      "parentId": "hnice2rhm7",
+                      "isLoading": false,
+                      "parentColumnSpace": 62.25,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "leftColumn": 33,
+                      "dynamicBindingPathList": [],
+                      "fontSize": "HEADING3",
+                      "text": "Phone No."
+                    },
+                    {
+                      "widgetName": "Text6",
+                      "rightColumn": 14,
+                      "textAlign": "LEFT",
+                      "widgetId": "hu8uld0gwm",
+                      "topRow": 22,
+                      "bottomRow": 26,
+                      "parentRowSpace": 40,
+                      "isVisible": true,
+                      "type": "TEXT_WIDGET",
+                      "fontStyle": "BOLD",
+                      "version": 1,
+                      "textColor": "#231F20",
+                      "parentId": "hnice2rhm7",
+                      "isLoading": false,
+                      "parentColumnSpace": 29.875,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [],
+                      "fontSize": "HEADING3",
+                      "text": "Resume"
+                    },
+                    {
+                      "resetFormOnClick": true,
+                      "widgetName": "FormButton2",
+                      "rightColumn": 45,
+                      "isDefaultClickDisabled": true,
+                      "buttonColor": "#2E3D49",
+                      "widgetId": "srepp36zvn",
+                      "topRow": 33,
+                      "bottomRow": 38,
+                      "isVisible": true,
+                      "type": "FORM_BUTTON_WIDGET",
+                      "version": 1,
+                      "recaptchaType": "V3",
+                      "parentId": "hnice2rhm7",
+                      "isLoading": false,
+                      "dynamicTriggerPathList": [],
+                      "disabledWhenInvalid": false,
+                      "leftColumn": 29,
+                      "dynamicBindingPathList": [],
+                      "borderRadius": "ROUNDED",
+                      "buttonVariant": "SECONDARY",
+                      "text": "Reset"
+                    },
+                    {
+                      "resetFormOnClick": true,
+                      "widgetName": "FormButton1",
+                      "rightColumn": 62,
+                      "onClick": "{{createApplication.run(() => showAlert('Application Submitted','success'), () => {})}}",
+                      "isDefaultClickDisabled": true,
+                      "buttonColor": "#FFC727",
+                      "widgetId": "40ybzu962e",
+                      "topRow": 33,
+                      "bottomRow": 38,
+                      "isVisible": true,
+                      "type": "FORM_BUTTON_WIDGET",
+                      "version": 1,
+                      "recaptchaType": "V3",
+                      "parentId": "hnice2rhm7",
+                      "isLoading": false,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "disabledWhenInvalid": false,
+                      "leftColumn": 46,
+                      "dynamicBindingPathList": [],
+                      "borderRadius": "ROUNDED",
+                      "buttonVariant": "PRIMARY",
+                      "text": "Submit"
+                    },
+                    {
+                      "widgetName": "FilePicker1",
+                      "displayName": "FilePicker",
+                      "iconSVG": "/static/media/icon.7c5ad9c3.svg",
+                      "topRow": 26,
+                      "bottomRow": 30,
+                      "parentRowSpace": 10,
+                      "allowedFileTypes": [],
+                      "type": "FILE_PICKER_WIDGET_V2",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.01953125,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onFilesSelected"
+                        }
+                      ],
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [],
+                      "isDisabled": false,
+                      "key": "wafv2chvgw",
+                      "onFilesSelected": "{{CreateFile.run()}}",
+                      "isRequired": false,
+                      "rightColumn": 18,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "592ozlfkmy",
+                      "isVisible": true,
+                      "label": "Select Files",
+                      "maxFileSize": 5,
+                      "version": 1,
+                      "fileDataType": "Text",
+                      "parentId": "hnice2rhm7",
+                      "selectedFiles": [],
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "files": [],
+                      "maxNumFiles": 1
+                    },
+                    {
+                      "widgetName": "Text34",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 26,
+                      "bottomRow": 30,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.01953125,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "leftColumn": 18,
+                      "dynamicBindingPathList": [],
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "OR",
+                      "key": "2u3gegbu3j",
+                      "rightColumn": 22,
+                      "textAlign": "CENTER",
+                      "widgetId": "f9mnl1upke",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "hnice2rhm7",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "fontSize": "PARAGRAPH"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "validOnPageLoadActions": true,
+        "id": "2 Application Upload",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "61c170fe9229e87746b79e05_61c433d6e89bc475f3cbc8a8"
+}
